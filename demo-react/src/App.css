@@ -1,34 +1,20 @@
+body{
+  background-color: #00003b57;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
+.Avatar {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Avatar {
+    animation: Avatar-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes Avatar-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +22,20 @@
     transform: rotate(360deg);
   }
 }
+
+.UserInfo-name{
+  font-size: 2.5em;
+  font-weight: bold;
+}
+ .Comment-text{
+   font-size: 1.5rem;
+ }
+.Comment{
+  width: 20%;
+  margin-left: 40%;
+}
+ .Comment-date{
+   color: #0c001fb4;
+   text-align: left;
+  font-style: italic;
+ }
